@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+hr {
+    height: 5px;
+    color: #f00;
+    background-color: #f00;
+}
+
+#heading{
+  text-align: center;
+  color: blue !important;
+  padding: 0px;
+}
+
+.squareimage {
+  height: 200px;
+  width: 200px;
+}
+.rectangleimage {
+  height: 200px;
+  width: 300px;
+}
+.barpic {
+  width: 50px;
+}
+
+h4 {
+  color: black !important;
+}
+
+h2 {
+  color: blue !important;
+}

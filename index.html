@@ -1,64 +1,148 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Name Calling</title>
-  <link type="text/css" rel="stylesheet" href="styles.css" />
-<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
+  <title>Fractions</title>
+  <link type="text/css" rel="stylesheet" href="stylesheets/styles.css" />
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <body>
   <div id="heading" class="jumbotron">
-    <h1>Psychology of Persuasion: Name Calling</h1>
-    <h4>Name calling is a highly manipulative communicative technique. This page aims to explain familiarize its reader with the technique.</h4>
+    <h1>What are Fractions?</h1>
+    <h4>Fractions are part of your everyday life - most of the time you don't even realize that you are using them. Here are some examples you may have encountered:</h4>
   </div>
 
   <div class="pic row">
   		<div>
   			<div class="image col-md-4">
-  					<img class="squareimage hillarypic" src="hillary.jpg">
+  					<img class="squareimage" src="images/fractions1.jpg">
   			</div>
         <div class="image col-md-4">
-            <img class="squareimage jebpic" src="jeb.jpg">
+            <img class="rectangleimage" src="images/fractions2.jpg">
         </div>
         <div class="image col-md-4">
-            <img class="squareimage tedpic" src="ted.jpg">
+            <img class="squareimage" src="images/fractions3.png">
         </div>
       </div>
   </div>
   <div class="names row">
       <div>
         <div class="image col-md-4">
-            <h4><q>Crooked Hillary</q></h4>
+            <h4><q>Half a pizza.</q></h4>
   		  	</div>
           <div class="image col-md-4">
-            <h4><q>Low Energy</q></h4>
+            <h4><q>A third of a cup.</q></h4>
           </div>
           <div class="image col-md-4">
-            <h4><q>Lying Ted</q></h4>
+            <h4><q>A quarter dollar.</q></h4>
           </div>
         </div>
   </div>
 
 <div>
   <h2>Definition</h2>
-  <p>Name Calling: Invoking a derogatory visual image.</p>
+  <p>Fractions represent parts of a whole. Fractions have a numerator and a denominator. The numerator represents the number of equal parts and the denominator represents the total amount of parts that make up a whole. For example 2/5, the numerator is 2 and the denominator is 5. In half a pizza, the numerator is 1 and the denominator is 2 - that makes 1/2 a pizza!</p>
 </div>
 
 <div>
-  <h2>Recognition</h2>
-  <p><span id="notMarco">Donald Trump about Marco Rubio: Don't worry about it</span><span id="littleMarco"> little Marco</span>.<span id="notMarcoEither"> I will. This guy has the number one absantee record in the United States.</span></p>
-  <p>Click on the name calling (above).</p>
+  <h2>Task 1: Can you recognize fractions?</h2>
+  <p>Hover over the text and see the images change</p>
+</div>
+
+<div class="labels row">
+  <div class="label col-md-4">
+    <span id="girlsLabel"><h4>Girls </h4></span>
+    <span id="boysLabel"><h4> Boys </h4></span>
+    <span id="kidsLabel"><h4> Kids</h4></span>
+  </div>
+  <div class="label col-md-4">
+    <span id="tulipsLabel"><h4>Tulips </h4></span>
+    <span id="daffodilsLabel"><h4> Daffodils </h4></span>
+    <span id="flowersLabel"><h4> Flowers</h4></span>
+  </div>
+</div>
+
+<div class="pic row">
+  <div class="image col-md-4">
+    <img class="squareimage" id="kidsPic" src="images/kids1.png">
+  </div>
+  <div class="image col-md-4">
+    <img class="rectangleimage" id="flowersPic" src="images/flowers1.png">
+  </div>
+</div>
+
+<div class="explanation row">
+  <div class="explanation col-md-4">
+    <p><q>There are two boys and three girls, five kids altogether.</q></p>
+    <p>2 boys. 5 kids.</p>
+    <br>
+    <div class="fraction">2 boys<br><img src="images/barlong.png" class="barpic"><br>5 kids</div>
+    <br>
+    &frac25; of the kids are boys.
+  </div>
+  <div class="explanation col-md-4">
+    <p><q>There is one tulip and two daffodils, three flowers altogether.</q></p>
+    <p>1 tulip. 3 flowers.</p>
+    <br>
+    <div class="fraction">1 tulup<br><img src="images/barlong.png" class="barpic"><br>3 flowers</div>
+    <br>
+    &frac13; of the flowers are tulips.
+  </div>
 </div>
 
 <div>
-  <h2>Extraction</h2>
-  <p><button onclick="eraseName()">Click here</button> to remove the name-calling.</p>
-  <h2>What effect does the name-calling evoke?</h2>
-  <ul><button onclick="alertNo()">hurts opponent physically</button></ul>
-  <ul><button onclick="alertYes()">reduces opponent to derogatory image</button></ul>
-  <ul><button onclick="alertNo()">manipulates opponent to do something they would otherwise not be willing to do</button></ul>
+  <h2>Task 2: Can you write fractions?</h2>
+  <p>Write the fraction (numerator and denominator) and get instant feedback.</p>
 </div>
+
+<div class="pic row">
+  <div class="image col-md-4">
+    <img class="squareimage" src="images/carsFraction.png">
+  </div>
+  <div class="image col-md-4">
+    <img class="rectangleimage" src="images/pizzaFraction.jpg">
+  </div>
+  <div class="image col-md-4">
+    <img class="squareimage" src="images/ballsFraction.png">
+  </div>
+</div>
+
+<div class="quiz row">
+  <div class="quiz col-md-4" id="CarsFractionQuiz">
+     <input type="text" id="carsNumerator" class="quizFraction" value="?" size="1">
+    <br><img src="images/barlong.png" class="barpic"><br>
+    <input type="text" id="carsDenominator" class="quizFraction" value="?" size="1">
+    <br>of the cars are Blue.
+  </div>
+  <div class="quiz col-md-4" id="PizzaFractionQuiz">
+    <input type="text" id="pizzaNumerator" class="quizFraction" value="?" size="1">
+    <br><img src="images/barlong.png" class="barpic"><br>
+    <input type="text" id="pizzaDenominator" class="quizFraction" value="?" size="1">
+    <br>of the pizza is eaten.
+  </div>
+  <div class="quiz col-md-4" id="BallsFractionQuiz">
+    <input type="text" id="ballsNumerator" class="quizFraction" value="?" size="1">
+    <br><img src="images/barlong.png" class="barpic"><br>
+    <input type="text" id="ballsDenominator" class="quizFraction" value="?" size="1">
+    <br>of the balls are baseballs.
+  </div>
+</div>
+
+<div>
+  <h2>Task 3: Leave your computer behind and find fractions all around you!</h2>
+  <p>Fractions are everywhere - find some now and share your findings with us.</p>
+  <ul>
+    <li>Which fractions did you encounter?</li>
+    <li>How difficult was it to find fractions in your everyday life?</li>
+    <li>How has this exercise changed your perception of fractions?</li>
+  </ul>
+</div>
+<form name="shareForm">
+  <textarea id="shareArea" name="shareArea" rows="8" cols="56">My Fractions</textarea>
+  <br>
+  <input type="submit" value="Submit" id="shareButton">
+</form>
+
 <script src="code.js"></script>
 </body>
